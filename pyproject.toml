@@ -1,0 +1,19 @@
+[project]
+name = "jarvis-personal-ai"
+version = "1.0.0"
+description = "JARVIS — assistente pessoal de IA com controle real do Windows, voz e memória."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

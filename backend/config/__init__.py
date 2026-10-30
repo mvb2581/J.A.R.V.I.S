@@ -1,0 +1,1 @@
+"""Configuração central do JARVIS."""
